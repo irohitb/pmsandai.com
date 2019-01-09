@@ -16,13 +16,13 @@ const container3 = () => {
                         <div className="row">
                             <div className="col-md-4 col-lg-4 col-12">
                               <Flip top cascade >  <div class="non-boxes-text">
-                                    <h1 className="non-boxes-text-main-heading"> Portfolio Management Schemes</h1>
-                                    <h1 className="non-boxes-text-main-heading">and</h1>
-                                    <h1 className="non-boxes-text-main-heading">Alternative Investments gives you an edge</h1>
+                                    <h1 className="non-boxes-text-main-heading"> Why and How </h1>
+                                    <h1 className="non-boxes-text-main-heading">Portfolio Management Schemes </h1>
+                                    <h1 className="non-boxes-text-main-heading">give you an Edge</h1>
                                     <h2 className="non-boxes-text-seconnd-heading">World of Investment Opportunities</h2>
                                     <p className="non-boxes-text-para"></p>
                                    <div className="non-boxes-button">
-                                      <p className="non-boxes-button-join-now"> Join Now </p>
+                                      <p className="non-boxes-button-join-now"> Register </p>
                                     </div>
                                 </div>
                               </Flip>

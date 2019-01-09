@@ -113,9 +113,9 @@
 
     top: 0px;
     left: 0px;
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(235,235,235,255);
     margin-right: 10px;
     display: flex;
     flex-direction: row;
@@ -147,8 +147,6 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-    margin-top: -60px;
-    margin-left: 110px;
 
 }
 

@@ -20,9 +20,10 @@ class container1 extends Component {
 
 
     changeActiveState = (event) => {
-        if (event === "learn") this.setState({learn: true, Compare: false, Select: false})
-        if (event === "Compare") this.setState({Compare: true, learn: false, Select: false})
-        if (event === "Select") this.setState({Select: true, Compare: false, learn: false})
+        if (event === "learn") this.setState({learn: true, Compare: false, Select: false, invest: false})
+        if (event === "Compare") this.setState({Compare: true, learn: false, Select: false, invest: false})
+        if (event === "Select") this.setState({Select: true, Compare: false, learn: false, invest: false})
+        if (event === "invest") this.setState({Select: false, Compare: false, learn: false, invest: true})
     }
     render () {
         return (
@@ -45,6 +46,10 @@ class container1 extends Component {
                             <h2 className="heading-container-desktop"> Select</h2>
                             <p className="para-container-desktop"> Get 3 best in each category on the basis of outperformance from respected benchmark </p>
                         </div>
+                        <div className="container-desktop-boxes" id={this.state.invest ? "container-desktop-boxes-active" : null}  onClick={() => this.changeActiveState("invest")}>
+                            <h2 className="heading-container-desktop"> Select</h2>
+                            <p className="para-container-desktop"> Get 3 best in each category on the basis of outperformance from respected benchmark </p>
+                        </div>
                     </div>
 
                     {/*  Section 2 */}
@@ -54,11 +59,11 @@ class container1 extends Component {
 
                                 <div className="con-col-5">
                                   <Fade bottom cascade duration={2000}>   <div className="we-are-different-container-desktop">
-                                        <h1 className="we-are-different-main-heading-desktop">We're Different!</h1>
+                                        <h1 className="we-are-different-main-heading-desktop">What's in it for you?</h1>
                                        <div className="container-element-class">
                                             <div className="row">
                                                     <div className="container-we-are-different-tick-box">
-                                                        <img src={TickBoxes} width="100" height="100" alt="tickBox" />
+                                                        <img src={TickBoxes} width="32" height="32" alt="tickBox" />
                                                     </div>
                                                     <h2 className="we-are-different-secondary">Unparalleled Research </h2>
                                                 </div>
@@ -67,7 +72,7 @@ class container1 extends Component {
                                         <div className="container-element-class">
                                             <div className="row">
                                                 <div className="container-we-are-different-tick-box">
-                                                        <img src={TickBoxes2} width="100" height="100" alt="tickBox" />
+                                                        <img src={TickBoxes2} width="32" height="32" alt="tickBox" />
                                                     </div>
                                                     <h2 className="we-are-different-secondary">Unbiased Advice </h2>
                                                 </div>
@@ -76,14 +81,15 @@ class container1 extends Component {
                                         <div className="container-element-class">
                                             <div className="row">
                                                 <div className="container-we-are-different-tick-box">
-                                                        <img src={TickBoxes1} width="100" height="100" alt="tickBox" />
+                                                        <img src={TickBoxes1} width="32" height="32" alt="tickBox" />
                                                     </div>
                                                     <h2 className="we-are-different-secondary"> Suitability Analysis</h2>
                                                 </div>
                                             <p className="we-are-different-secondary-para">We under take the responsibility of analyzing investors' risk profile, to ensure that not only right, but suitable investments decisions are made</p>
                                         </div>
+                                    </div>
 
-                                    </div></Fade>
+                                  </Fade>
                                 </div>
 
                                     <div className="con-col-7">
@@ -92,8 +98,9 @@ class container1 extends Component {
                                             { this.state.learn ? <img src={screen1} className="container-1-hero-image" /> : null}
                                             { this.state.Compare ? <img src={screen2}  className="container-1-hero-image" /> : null}
                                             { this.state.Select ? <img src={screen3}  className="container-1-hero-image" /> : null}
+                                            { this.state.invest ? <img src={screen3}  className="container-1-hero-image" /> : null}
                                         </div>
-                                        </Fade>
+                                     </Fade>
                                 </div>
                             </div>
 
@@ -151,11 +158,11 @@ class container1 extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-12 col-sm-12">
-                                    <h1 className="we-are-different-main-heading-desktop">We're Different!</h1>
+                                    <h1 className="we-are-different-main-heading-desktop">What's in it for you?</h1>
                                     <div className="container-element-class">
                                         <div className="row">
                                             <div className="container-we-are-different-tick-box">
-                                                    <img src={TickBoxes} width="100" height="100" alt="tickBox" />
+                                                    <img src={TickBoxes} width="32" height="32" alt="tickBox" />
                                                 </div>
                                                 <h2 className="we-are-different-secondary">Unparalleled Research </h2>
                                             </div>
@@ -164,7 +171,7 @@ class container1 extends Component {
                                     <div className="container-element-class">
                                         <div className="row">
                                             <div className="container-we-are-different-tick-box">
-                                                    <img src={TickBoxes2} width="100" height="100" alt="tickBox" />
+                                                    <img src={TickBoxes2} width="32" height="32" alt="tickBox" />
                                                 </div>
                                                 <h2 className="we-are-different-secondary">Unbiased Advice </h2>
                                             </div>
@@ -173,7 +180,7 @@ class container1 extends Component {
                                     <div className="container-element-class">
                                         <div className="row">
                                             <div className="container-we-are-different-tick-box">
-                                                    <img src={TickBoxes1} width="100" height="100" alt="tickBox" />
+                                                    <img src={TickBoxes1} width="32" height="32" alt="tickBox" />
                                                 </div>
                                                 <h2 className="we-are-different-secondary"> Suitability Analysis</h2>
                                             </div>
