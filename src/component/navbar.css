@@ -1,0 +1,137 @@
+
+
+
+/* Desktop CSS class */
+.custom-navbar-class {
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+}
+
+.custom-navbar-class-top {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    height: 35px !important;
+}
+
+.custom-navbar-class-top a{
+    color: black;
+}
+
+.top-nav-text {font-size: 12px !important;}
+
+.nav-item-desktop-top-left { width: 100% !important;}
+
+.navbar-nav-top {
+height: 35px !important;}
+
+.mr-auto-top { margin-right: auto !important;}
+
+.nav-item-desktop-top {width: 130px;
+height: 35px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;}
+
+.header-social-icons-image {
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.header-social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+a {
+    color: white;
+}
+
+.navbar-brand-desktop {
+    width: 230px;
+    height: 75px;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item-desktop {
+    width: 130px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-navbar-desktop {
+    width: 230px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(145,100,22,255);
+}
+
+.navbar-text-desktop {
+    color: white;
+    padding-top: 1.3rem !important;
+}
+
+
+/* Mobile CSS class */
+
+
+.custom-navbar-class-mobile {
+    background: rgba(22,56,80,255);
+}
+
+.navbar {
+    background: rgba(22,56,80,255) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(145,100,22,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(145,100,22,255) !important;
+}
+
+.nav-link-mob {
+    color: white !important;
+}
+
+.navbar-brand-mobile {
+    width: 200px;
+    height: 60px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.mr-auto, .mx-auto {margin-left: auto!important;
+margin-right: 0px !important;}
+
+.bg-light {background-color: #000 !important;}
+
+
+html {
+  scroll-behavior: smooth;
+}

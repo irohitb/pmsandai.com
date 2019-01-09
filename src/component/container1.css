@@ -1,0 +1,192 @@
+
+.container-main-class {
+    background: rgba(235,235,235,255);
+    padding-bottom: 100px;
+}
+
+.we-are-different-container-desktop {
+    margin-top: 78px;
+    margin-left: 25%;
+}
+
+
+.container-1-image-desktop {
+    background-image: url("./../assests/page_cover.png");
+    width: auto;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.coontainer-desktop-boxes-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-desktop-boxes  {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -20px;
+    width: 25vw;
+    padding: 23px 35px 8px 35px;
+    background-color: white;
+    border: 0.5px solid #707070;
+    margin-left: 0.5px;
+    -ms-box-shadow:0px 8px 5px 1px rgba(0,0,0,0.41);
+	-o-box-shadow:0px 8px 5px 1px rgba(0,0,0,0.41);
+	-webkit-box-shadow:0px 8px 5px 1px rgba(0,0,0,0.41);
+	-moz-box-shadow:0px 8px 5px 1px rgba(0,0,0,0.41);
+	box-shadow: 8px 8px 5px 1px rgba(0,0,0,0.41);
+}
+
+
+
+.heading-container-desktop {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+
+.para-container-desktop {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+#container-desktop-boxes-active {
+    background: rgba(145,100,22,255);
+    color: white;
+}
+
+
+/* Conatiner classes */
+
+
+
+.container-1-image-mobile {
+    background-image: url("./../assests/page_cover.png");
+    width: auto;
+    height: 50vh;
+    background-position: center;
+    background-size: 170% 100%;
+}
+
+
+.container-mobile-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-mobile-boxes {
+    height: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+.coontainer-mobile-boxes-main  {
+    margin-top: -75px;
+    background: rgba(22,56,80,255);
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+/* Overwritting Css class */
+.row {
+    margin-left: 0px;
+    margin-right: 0px !important;
+}
+
+
+/* Common Desktop - mobile Classes (container classes) */
+
+
+.container-we-are-different-tick-box {
+
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+
+}
+
+.container-element-class {
+    margin-top: 43px;
+}
+
+.we-are-different-main-heading-desktop {
+    color: #163850;
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.we-are-different-secondary {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+.we-are-different-secondary-para {
+    color: #163850;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: -60px;
+    margin-left: 110px;
+
+}
+
+.container-we-are-different-common {
+
+    color: #163850;
+  }
+
+  .container-1-hero-section-image {
+
+      overflow: hidden;
+  }
+
+  .container-1-hero-image {
+    margin-top: 100px;
+    max-width: 70vw;
+    max-height: 60vh;
+    margin-left: 50px;
+    margin-right: 0px !important;
+    width: auto;
+    height: auto;
+
+  }
+
+  .con-col-5 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .con-col-7 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .we-are-different-main-heading-desktop {
+      margin-top: 20px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }

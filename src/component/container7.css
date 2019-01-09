@@ -1,0 +1,121 @@
+.container-7-desktop-image {
+    background: url("./../assests/container7.png");
+    background-size:100% 100%;
+    width: 100vw;
+    height: 55vh;
+    margin-bottom: 60px;
+}
+
+.container-7-main-class {
+    padding-top: 50px;
+    background-color: rgb(30,56,78);
+    padding-bottom: 50px;
+}
+
+
+
+  .subscribe-to-quaterly-desktop {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: -60px;
+
+  }
+  .subscribe-to-quaterly-desktop-sub {
+    background-color: rgb(138, 100, 40);
+    height: 19.6vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .subscribe-to-quaterly-heading {
+      color: white;
+  }
+
+  .form-control {
+      background-color:  rgb(138, 100, 40);
+      border: none;
+      color: white;
+      height: 50px;
+      font-family: 'Montserrat-bold', sans-serif;
+      font-size: 20px;
+  }
+
+  .form-control:focus {
+    background-color:  rgb(138, 100, 40);
+    border: none;
+    color: white;
+    height: 50px;
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 20px;
+  }
+
+  .form-control::placeholder {
+    color: white;
+  }
+  .form-inline-desktop {
+    margin-left: 30px !important;
+    border-bottom: 2px solid white;
+  }
+
+  .footer-button {
+    background-color:  rgb(138, 100, 40);
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: 900;
+  }
+
+  .container-7-mobile-image {
+    background: url("./../assests/pmob.png");
+    background-size:100% 100%;
+    width: 100vw;
+    height: 100vh;
+
+
+  }
+
+  .subscibe-to-quaterly-mobile-heading {
+    text-align: center;
+    width: 100%;
+    color: white;
+
+  }
+
+  .subscibe-to-quaterly-mobile-main {
+    margin-top: -80px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(138, 100, 40);
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .container-7-mobile-image-main {
+    padding-bottom: 100px;
+    background-color: rgb(30,56,78);
+  }
+
+  .form-inline-mobile {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat-bold', sans-serif;
+    border-bottom: 2px solid white;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .new-container-class {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  } }
+
+  html {
+  scroll-behavior: smooth;
+}

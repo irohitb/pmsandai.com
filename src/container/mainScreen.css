@@ -1,0 +1,77 @@
+.menu-transatition {
+    height: 100vh;
+    width: 100vw;
+}
+
+.mainScreen-rotating-logo {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#loading {
+    -webkit-animation: rotation 3s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+.world-of-inestment-oppertunity-heading{
+    margin-top: 10vh;
+    color: #163850;
+}
+
+.mainscreen-world-of-investement {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.PMS-Heading {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: #163850;
+
+}
+
+.mainscreen-top {
+    margin-top: 20px;
+    margin-bottom: -80px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #163850;
+    font-family: 'Montserrat-bold', sans-serif;
+
+}
+
+.mainscreen-top h2{
+font-family: 'Montserrat-bold', sans-serif;
+font-size: 28px;
+font-weight: 800;
+
+}
+
+.PMS {
+    margin-top: 20px;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,101 @@
+.container5-main-class {
+    padding-top: 94px;
+    padding-bottom: 126px;
+}
+
+.container5-the-team-photo {
+    box-shadow: 0px 8px 5px 1px rgba(0,0,0,0.41);
+    margin-top: 20px;
+}
+
+.container5-the-team-photo-image-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container5-the-team-name {
+    margin-top: 5px!important;
+    padding-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    line-height: 1 !important;
+    color: #163850;
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container5-the-team-role {
+    margin-top: 5px!important;
+    padding-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    line-height: 1.5 !important;
+    color: #163850;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.container5-the-team-photo-image-sub-text {
+    margin-left: 30px;
+}
+
+
+.container5-the-team-photo-image-box {
+    background-color: rgba(145,100,22,255);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5-the-team-photo-image-box-active {
+    background: url("./../assests/cus1.png");
+
+    width: 50px;
+    height: 90px;
+    margin-bottom: -50px;
+    background-size: cover;
+
+}
+.container5-the-team-photo-image-sub {
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+}
+
+.container5-linkedin-text {
+    font-weight: 600;
+    font-size: 34px;
+    font-family: 'Montserrat-bold', sans-serif;
+    color: white;
+}
+
+.container5-linkedin-text strong {color: #fff !important;}
+
+.container5-the-main-heading {
+    color: #163850;
+font-family: 'Montserrat-bold', sans-serif;
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .new-container-class {
+margin-left: 0 !important;
+margin-right: 0 !important;
+padding-left: 15px;
+padding-right: 15px;
+} }
+
+html {
+  scroll-behavior: smooth;
+}
